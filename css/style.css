@@ -116,11 +116,10 @@ svg { width: 1em; height: 1em; }
   .slide:not(.slide--specialist) picture { position: relative; display: flex; align-items: center; height: 700px; overflow: hidden; isolation: isolate; }
   .slide:not(.slide--specialist) picture::before { content: ""; position: absolute; inset: -28px; z-index: -1; background: var(--banner) center / cover no-repeat; filter: blur(22px) brightness(.8); }
   .slide:not(.slide--specialist) img { height: auto; max-height: 700px; object-fit: contain; mask-image: linear-gradient(transparent, #000 8%, #000 92%, transparent); }
-  .slide:nth-child(1) { --banner: url('../assets/img/gen/banners-insta/banner-1-desktop.jpg'); }
-  .slide:nth-child(2) { --banner: url('../assets/img/gen/banners-insta/banner-5-desktop.jpg'); }
-  .slide:nth-child(3) { --banner: url('../assets/img/gen/banners-insta/banner-2-desktop.jpg'); }
-  .slide:nth-child(4) { --banner: url('../assets/img/gen/banners-insta/banner-7-desktop.jpg'); }
-  .slide:nth-child(5) { --banner: url('../assets/img/gen/banners-insta/banner-6-desktop.jpg'); }
+  .slide:nth-child(1) { --banner: url('../assets/img/gen/banners-insta/banner-5-desktop.jpg'); }
+  .slide:nth-child(2) { --banner: url('../assets/img/gen/banners-insta/banner-2-desktop.jpg'); }
+  .slide:nth-child(3) { --banner: url('../assets/img/gen/banners-insta/banner-7-desktop.jpg'); }
+  .slide:nth-child(4) { --banner: url('../assets/img/gen/banners-insta/banner-6-desktop.jpg'); }
 }
 .hero__ui { position: absolute; left: 0; right: 0; bottom: 20px; z-index: 2; display: flex; justify-content: center; }
 .hero__dots { display: flex; gap: 8px; }
