@@ -284,7 +284,8 @@ svg { width: 1em; height: 1em; }
 .ngenuity__features h3 { font-size: 17px; line-height: 1.4; margin-bottom: 4px; }
 .ngenuity__features p { font-size: 14px; margin: 0; color: var(--muted); }
 .ngenuity__detail { display: flex; gap: 22px; align-items: center; }
-.ngenuity__detail img { width: 86px; height: auto; flex: none; transform: rotate(-9deg); }
+/* Compensa o alongamento vertical presente na exportação original dos óculos. */
+.ngenuity__detail img { width: 112px; height: 70px; object-fit: fill; flex: none; transform: rotate(-9deg); }
 .ngenuity__eyebrow { display: block; font-size: 13px; font-weight: 700; color: var(--earth); margin-bottom: 5px; }
 .ngenuity__detail p { margin: 0; font-size: 14px; max-width: 30ch; }
 @media (max-width: 850px) {
